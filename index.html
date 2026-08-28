@@ -411,18 +411,10 @@
 
         /* Responsive Breakpoints */
         @media (max-width: 968px) {
-            nav { 
-                    padding: 1rem 1rem; /* Compact padding for small screens */
-                    top: 0;
-                    left: 0;
-                }
+            nav { padding: 1rem 5%; }
             
             .hamburger { display: block; }
-            
-            .logo {
-                    font-size: 1.2rem;  /* Slightly smaller font so it fits cleanly */
-                    letter-spacing: 1px;
-                }
+
             .nav-links {
                 position: fixed;
                 top: 0;
@@ -460,8 +452,20 @@
         }
 
         @media (max-width: 576px) {
+
+            nav { 
+                padding: 1rem 1rem; /* Compact padding for small screens */
+                top: 0;
+                left: 0;
+            }
+
             .hero-img img { max-width: 100%; }
 
+            .logo {
+                font-size: 1.2rem;  /* Slightly smaller font so it fits cleanly */
+                letter-spacing: 1px;
+            }
+            
             .btn-main {
                 width: 100%;
                 padding: 1rem 2rem;
